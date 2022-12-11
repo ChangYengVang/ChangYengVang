@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&family=Roboto:ital,wght@0,300;1,900&display=swap');
+
+html {
+    line-height: 1.15;
+    tap-highlight-color: black;
+}
+
+body{
+	font-family: 'Abril Fatface', cursive;
+	margin: 0;
+    line-height: 1.5;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    aspect-ratio: auto 275 / 100;
+}
+
+header{
+    display: block;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+nav {
+    background-color: black;
+    margin: 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 12px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 10px;
+    background-color: white;
+}
+
+.home-hero {
+    min-height: 300px;
+    background-image: url(images/background.png);
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+}
+
+.home-hero img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    border: #000000 solid 8px;
+    padding: 10px;
+    background-color: black;
+}
+
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-sm-6{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.photo-sp{
+    margin-top: 80px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.example {
+    box-shadow: 2px 2px 2px grey;
+    margin: 10px;
+}
+
+hr {
+    margin: 60px auto;
+    border: 0;
+    height: 1px;
+    background-color: purple;
+}
+
+.big-3 {
+    text-align: center;
+}
+
+.col-sm-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+big-3 i.fa {
+    font-size: 6em;
+    color: #3D3491;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.col-sm-9 {
+    height: 475px;
+    background-size: cover;
+    background-position: center;
+    color: #042837;
+    padding: 10px 10px 10px 30px;
+}
+
+div{
+    display: block;
+}
+
+.gallery .preview {
+    width: 100%;
+    height: auto;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 180px;
+    margin: 3px 10px 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.col-sm-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.footer-icons h2 {
+    margin-top: 0;
+}
+
+.h4, h4 {
+    font-size: 1.5rem;
+}
+
+i.fa {
+    color: darkred;
+    font-size: 5em;
+}
+
+footer{
+    clear: both;
+    background-color: purple;
+    color: white;
+    padding: 50px;
+    display: block;
+    text-decoration: none;
+}
+
+/*Resume*/
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.resume {
+    margin: 30px auto;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 2px #333333;
+    padding: 30px 5%;
+    max-width: 800px;
+}
+
+.resume h2 {
+    font-size: 50px;
+}
+
+.resume h2, .resume h4{
+    text-align: center;
+}
+
+.resume p, .resume li {
+    font-size: 14px;
+}
+
+h3 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Javascript CSS*/
+
+header {
+    background-color: #white;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.60em;
+    margin-block-end: 0.60em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: black;
+    margin: 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+    background-color: white;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+div {
+    display: block;
+}
+
+canvas {
+    background-color: black;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 2px 2px 6px black;
+    border:3px solid blue;
+    background-image: url(images/lake2.jpg);
+}
+
+.game-controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.center-game {
+    margin: 0 auto;
+}
+
+footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+small {
+    font-size: 80%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 3px 0px black;
+    background: linear-gradient(to bottom, black 5%, #6c7c7c 100%);
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+}
+
+/* JavaScript Game changes for mobile */
+.mobile{
+    display:none;
+}
+@media only screen and (max-width: 768px){
+    .desktop{
+        display:none;
+    }
+    .mobile{
+        display: block;
+        touch-action: manipulation;
+    }
+}
+
+/*vertical Navigation bar*/
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav a:link{
+	color: yellow;
+}
+
+nav a:visited{
+	color: white;
+}
+
+nav a:hover{
+	color: gray;
+}
+
+nav a:active{
+	color: black;
+}
+
+a:link{
+color: blue;
+}
+
+a:visited{
+color: blue;
+}
+
+a:hover{
+color: black;
+}
+
+a:active{
+color: white;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid solid gray;
+	padding: 10px;
+}
+
+/* CSS for Smartphone */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5cm;
+	}
+}

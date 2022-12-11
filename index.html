@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chang Vang Portfolio::Home</title>
+	<meta name="description" content="This page demonstrates my skills to create a home page for portfolio.">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" alt="logo" height="100px" width="275" class="img-fluid logo">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="javascript.html">Javascript</a></li>
+		</ul>
+	</nav>
+	<div class="home-hero">
+		<img src="images/car3.png" height="200" width="200" alt="car photo" class="img-fluid">
+		<h1>Welcome to my Portfolio</h1>
+	</div>
+	<main>
+		<div class="container-fluid">
+		<div class="row">
+		<div class="col-sm-6">
+		<h2>About Me</h2>
+			<p>
+				My name is Chang Vang and I study Web Design at Saint Paul College in St. paul, Minnesota. I made this website as a portfolio of my skill developing websites.
+			</p>
+			<p>I have taken the following classes at Saint Paul College:
+			</p>
+			<ul>
+				<li>Web Fundamentals, where I learned HTML and CSS</li>
+				<li>Keyboarding</li>
+				<li>Interpersonal Communication</li>
+			</ul>
+			<p>I am also planning on taking Adobe classes in order for me to obtain my certification in Photoshop and game developing.
+			</p>
+			<p>My hobbies include fish keeping, car modification, and game coding.
+			</p>
+		</div>
+		<div class="col-sm-6">
+			<img src="images/car2.png" width="" height="" alt="front of car" class="img-fluid photo-sp">
+			<p>This is a photo of my 2013 Scion FR-S</p>
+		</div>
+		</div>
+		<hr>
+			<div class="row big-3">
+			<div class="col-sm-4">
+				<i class="fa fa-user-circle" aria-hidden="true"></i>
+				<h2>Resume</h2>
+				<p>Check out my resume! I am always looking for coding opportunities.</p>
+				<a href="resume.html">
+					<button>Learn More</button>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+				<h2>Portfolio</h2>
+				<p>My portfolio includes websites as well as some special HTML/CSS projects.</p>
+				<a href="portfolio.html">
+					<button>Learn More</button>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<i class="fa fa-rocket" aria-hidden="true"></i>
+				<h2>JavaScript Game</h2>
+				<p>I made my custom version of the W3 Schools JavaScript game.</p>
+				<a href="javascript.html">
+					<button>Learn More</button>
+				</a>
+				</div>
+			</div>
+			<hr>
+				<h2>My Favorite Cars</h2>
+				<p>"I made this photo gallery in JavaScript. It includes some cool cars I found on Pixabay.com."</p>
+				<div class="gallery row"> 
+					<div class="col-sm-9">
+			    <div class="preview">
+			        <img id="preview" src="images/car4.jpg" alt="yellow car">
+			    </div>
+				</div>
+				<div class="col-sm-3">
+		    	<div class="gallery-thumbnails">
+		        	<img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/car4.jpg" alt="yellow car">
+		        	<img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/car5.jpg" alt="gray car">
+		        	<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/car6.jpg" alt="blue car">
+		        	<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/car7.jpg" alt="black car">
+		        </div>
+		    	</div>
+				</div>
+				</div>
+	</main>
+	<footer>
+          <div class="row icons">  
+            	<div class="col-sm-3">
+                	<a href="https://www.youtube.com/channel/UC9ywqVRR5yhjuzxQaV_iTHw">
+                		<i class="fa fa-youtube-play" aria-hidden="true"></i>
+                		<h4>Follow on youtube</h4>
+                   </a>
+                </div>
+                <div class="col-sm-3">
+                	<a href="https://twitch.com/xgomugome">
+                		<i class="fa fa-twitch" aria-hidden="true"></i>
+                		<h4>Connect on Twitch</h4>
+                   </a>
+                </div>
+                <div class="col-sm-3">
+                	<a href="https://twitter.com/xGomuGome">
+                		<i class="fa fa-twitter" aria-hidden="true"></i>
+                		<h4>Follow on Twitter</h4>
+                   </a>
+                </div>
+				<div class="col-sm-3">
+                	<a href="mailto:vangchang1998@gmail.com">
+                		<i class="fa fa-envelope" aria-hidden="true"></i>
+                		<h4>Email me</h4>
+                   </a>
+                </div>
+            </div>         
+         <small>©Copyright of Chang Vang</small>
+      </footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
